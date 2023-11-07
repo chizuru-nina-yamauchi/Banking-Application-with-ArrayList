@@ -16,7 +16,8 @@ public class Main {
             System.out.println("2. Remove a bank account");
             System.out.println("3. Search for a bank account");
             System.out.println("4. Display accounts");
-            System.out.println("5. Exit");
+            System.out.println("5. Show the total balance of the bank: ");
+            System.out.println("6. Exit");
             System.out.println("Enter your choice: ");
             try{
                 String choiceInput = input.nextLine();
@@ -68,6 +69,12 @@ public class Main {
                         break;
 
                     case 5:
+                        double totalBalance = bank.totalBankBalance();
+                        System.out.println("The total balance of the bank is: " + totalBalance);
+                        break;
+
+
+                    case 6:
                         System.out.println("Exiting the program.");
                         System.exit(0);
 

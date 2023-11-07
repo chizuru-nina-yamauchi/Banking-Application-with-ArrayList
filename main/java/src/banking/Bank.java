@@ -36,4 +36,15 @@ public class Bank {
         }
     }
 
+    public double totalBankBalance(){
+        double totalBalance = 0.0;
+        for(int i = 0; i < accounts.size(); i++) {
+            Account account = accounts.get(i);
+            if(account != null){
+                totalBalance += account.getBalance();
+            }
+        }
+        return totalBalance;
+    }
+
 }
