@@ -6,6 +6,7 @@ This was my assignment for my Java online course. The directory is private in th
 I posted the similar repository for online Book Store Inventory application with for-loop(https://github.com/chizuru-nina-yamauchi/Online-Book-Store-Inventory-with-for-loop).
 This assignment, I did with ArrayList.
 The result photos in the end.
+
 ---
 Level of Difficulty: Intermediate
 Title: Advanced Online Banking System
@@ -42,6 +43,7 @@ Also, add a feature that displays the total balance of the bank (the sum of the 
 
 Input: Calculate Total Balance/
 Output: Total Balance: $15000.00
+
 ---
 ## Result
 ![the result photo 1](main/java/Resources/result1.png)
